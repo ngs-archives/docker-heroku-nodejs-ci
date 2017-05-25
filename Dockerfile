@@ -1,7 +1,7 @@
 FROM heroku/cedar:14
 MAINTAINER Atsushi Nagase<ngs@mov.am>
 
-ENV NODE_ENGINE 6.10.3
+ENV NODE_ENGINE 0.10.48
 ENV PATH /app/heroku/node/bin/:/app/user/node_modules/.bin:$PATH
 
 RUN mkdir -p /app/heroku/node /app/.profile.d
